@@ -1,0 +1,149 @@
+body{
+  background-color: #fcf4ef;
+  color:#4c5464;
+  box-sizing: border-box
+}
+
+.header{
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 4rem;
+  padding: 2rem 0;
+  text-align: center;
+}
+.header nav{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0  0 1.5rem 0;
+  
+}
+
+.header nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 9rem;
+  height: 4rem;
+  border:0.1rem solid ;
+  text-decoration: none;
+  border-color: white;
+  border-radius: 10%;
+  background-color:#fc7061 ;
+  font-size:1.2rem;
+  color:#4c5464;
+}
+.header nav a:hover {
+  background-color: #fcf4ef;
+  border-color: #4c5464;;
+}
+
+.section-top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topimg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-top h2{
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.section-top button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  background-color:#fcf4ef;
+  width: 12rem;
+  height: 3rem;
+  border:0.1rem solid ;
+  border-color: #fc7061;
+  color: #fc7061 ;
+}
+
+.section-top p{
+  margin: 1rem auto;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.projects { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.project{
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  width: 300px;
+  margin: 0 auto;
+}
+.project h3{
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 1rem 0 0 0;
+}
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+
+}
+
+footer {
+  background-color: #f0e8e3 ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+ font-size: 1.4rem;
+ padding: 2rem 0;
+}
+
+footer button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  background-color:#fcf4ef;
+  width: 12rem;
+  height: 3rem;
+  border:0.1rem solid ;
+  border-color: #fc7061;
+  color: #fc7061 ;
+  margin: 0 0 3rem 0;
+}
+
+
+
+
+@media (max-width: 1200px){
+ 
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+  }
+}
